@@ -21,18 +21,19 @@ class HomePage extends StatelessWidget {
           return SizedBox(
             width: constraints.maxWidth,
             height: constraints.maxHeight,
-            child: const Row(
+            child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 HoverBtn(
                   text: "Open",
+                  onTap: () {},
                   iconData: Icons.file_open,
                   paddinBetTextnIcon: 8,
                   fontSize: 20,
                   iconSize: 40,
-                  padding:
-                      EdgeInsets.symmetric(vertical: 28.0, horizontal: 36.0),
+                  padding: const EdgeInsets.symmetric(
+                      vertical: 28.0, horizontal: 36.0),
                 ),
               ],
             ),
