@@ -12,7 +12,13 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.6
+  file_picker: ^8.0.6
+  build_runner: ^2.4.11
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  loading_animation_widget: ^1.2.1
 
 dev_dependencies:
   flutter_test:
